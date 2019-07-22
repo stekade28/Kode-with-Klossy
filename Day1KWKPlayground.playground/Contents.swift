@@ -44,3 +44,13 @@ if favoriteFood == "Chipotle" {
 }
 else if favoriteFood == "Starbucks" {print("You are hungry")}
 else {print("You are eating")}
+
+
+var gitHub = "Rocks"
+
+if gitHub == "Rocks" {
+    print("you did it!")
+    }
+else {
+    print("try again")
+}
