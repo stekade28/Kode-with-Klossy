@@ -54,3 +54,53 @@ if gitHub == "Rocks" {
 else {
     print("try again")
 }
+
+func walkDog(numberOfDogs : Int) -> Int {
+    print("call dog")
+    print("get leash")
+    print("attach leash")
+    print("open door")
+    print("walk out")
+    print("close door")
+    print("walk")
+    print("there are \(8) dogs in the house")
+    var lengthOfWalk = numberOfDogs * 15
+    return lengthOfWalk
+}
+let minutesToWalk = walkDog(numberOfDogs : 3)
+print("Please walk the dogs. I will expect to see you complete the task in \(45) minutes!")
+
+func makingCereal() {
+    print("grab box of cereal")
+    print("grab a bowl")
+    print("pour cereal into bowl")
+    print("put box of cereal away")
+    print("take milk out of the fridge")
+    print("pour milk into cereal")
+    print("put milk back in the fridge")
+    print("take a spoon")
+    print("put spoon in the bowl")
+    print("eat the cereal")
+}
+
+
+func hello(name : String) {
+    print("hello")
+    print("\(name)")
+}
+
+hello(name: "Trinity")
+
+var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
+
+print(friendsOfKarlie[2])
+friendsOfKarlie[2] = "Josh Kushner"
+print(friendsOfKarlie[2])
+
+var roleModelsOfSharayu = ["Karlie Kloss", "Katie Ledecky", "Shawn Mendes"]
+print(roleModelsOfSharayu[2])
+roleModelsOfSharayu.append("Camila Cabello")
+print(roleModelsOfSharayu)
+roleModelsOfSharayu[2] = "Jimmy Fallon"
+print(roleModelsOfSharayu)
+roleModelsOfSharayu.remove(at : 1")
