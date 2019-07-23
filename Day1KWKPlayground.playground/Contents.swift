@@ -103,4 +103,15 @@ roleModelsOfSharayu.append("Camila Cabello")
 print(roleModelsOfSharayu)
 roleModelsOfSharayu[2] = "Jimmy Fallon"
 print(roleModelsOfSharayu)
-roleModelsOfSharayu.remove(at : 1")
+roleModelsOfSharayu.remove(at : 1)
+
+var friendsNamesAndBirthdays = [
+    "Sharayu" : "January 28th",
+    "Amelia" : "July 28th",
+    "Maliha" : "June 21st",
+    "Sophia" : "March 22nd"
+]
+print(friendsNamesAndBirthdays)
+friendsNamesAndBirthdays["Sophia"] = "March 24th"
+print(friendsNamesAndBirthdays)
+print(friendsNamesAndBirthdays["Sharayu"])
