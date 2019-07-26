@@ -4,7 +4,7 @@ var str = "Hello, playground"
 
 class Scholar {
     var name = "Sharayu"
-    var age = 14
+    var age = 0
     var studying = "Swift"
     
     init( scholarName: String, scholarAge : Int) {
@@ -20,7 +20,7 @@ class Scholar {
     }
 
 var newScholar = Scholar(scholarName: "Sharayu", scholarAge: 14)
-print(newScholar.name)
+print(newScholar.age)
 
 newScholar.writeCode()
 newScholar.write()
