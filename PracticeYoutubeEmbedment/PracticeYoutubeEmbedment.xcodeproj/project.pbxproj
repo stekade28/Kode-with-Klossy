@@ -15,6 +15,7 @@
 		187A638B22F356DE0079BE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A638922F356DE0079BE20 /* LaunchScreen.storyboard */; };
 		187A639622F356DE0079BE20 /* PracticeYoutubeEmbedmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A639522F356DE0079BE20 /* PracticeYoutubeEmbedmentTests.swift */; };
 		187A63A122F356DE0079BE20 /* PracticeYoutubeEmbedmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A63A022F356DE0079BE20 /* PracticeYoutubeEmbedmentUITests.swift */; };
+		187A63B022F389A30079BE20 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187A63AF22F389A30079BE20 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		187A639C22F356DE0079BE20 /* PracticeYoutubeEmbedmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeYoutubeEmbedmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187A63A022F356DE0079BE20 /* PracticeYoutubeEmbedmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeYoutubeEmbedmentUITests.swift; sourceTree = "<group>"; };
 		187A63A222F356DE0079BE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187A63AF22F389A30079BE20 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187A63B022F389A30079BE20 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				187A639422F356DE0079BE20 /* PracticeYoutubeEmbedmentTests */,
 				187A639F22F356DE0079BE20 /* PracticeYoutubeEmbedmentUITests */,
 				187A637B22F356DD0079BE20 /* Products */,
+				187A63AE22F389A30079BE20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				187A63A222F356DE0079BE20 /* Info.plist */,
 			);
 			path = PracticeYoutubeEmbedmentUITests;
+			sourceTree = "<group>";
+		};
+		187A63AE22F389A30079BE20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187A63AF22F389A30079BE20 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
