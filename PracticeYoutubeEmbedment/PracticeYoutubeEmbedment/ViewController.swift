@@ -36,7 +36,8 @@ class ViewController: UIViewController {
             let youtubeURL = NSURL(string: "https:www.youtube.com/embed/\(videoID)")
             else {return}
         videoTwo.load(URLRequest(url: youtubeURL as URL))
-}
+    }
+    
     func loadVideoThree(videoID videoID:String) {
         guard
             let youtubeURl = NSURL(string: "https:www.youtube.com/embed/\(videoID)")
@@ -47,6 +48,6 @@ class ViewController: UIViewController {
         guard
             let youtubeURl = NSURL(string: "https:www.youtube.com/embed/\(videoID)")
             else {return}
-        videoThree.load(URLRequest(url: youtubeURl as URL))
+        videoFour.load(URLRequest(url: youtubeURl as URL))
     }
 }
